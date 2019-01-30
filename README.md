@@ -93,6 +93,7 @@ If you have already used the previous example code remove the `libalgobsec.a` fi
 | gcc/Cortex_M4F | cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard |
 | esp32 |  esp32 |
 | esp8266 |  esp8266 |
+| spresense | cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard |
 
 ### 7. Verify and upload the example code
 
