@@ -84,7 +84,7 @@ extern "C"
 #include <stdint.h>
 #include <stddef.h>
 
-#define BSEC_MAX_PHYSICAL_SENSOR     (7)         /*!< Number of physical sensors that need allocated space before calling bsec_update_subscription() */
+#define BSEC_MAX_PHYSICAL_SENSOR     (8)         /*!< Number of physical sensors that need allocated space before calling bsec_update_subscription() */
 #define BSEC_MAX_PROPERTY_BLOB_SIZE  (304)     /*!< Maximum size (in bytes) of the data blobs returned by bsec_get_configuration() */
 #define BSEC_MAX_STATE_BLOB_SIZE     (65)        /*!< Maximum size (in bytes) of the data blobs returned by bsec_get_state()*/
 #define BSEC_SAMPLE_RATE_DISABLED    (65535.0f)      /*!< Sample rate of a disabled sensor */
